@@ -7,7 +7,7 @@ body  {
   /* helps centre content */
   display: table;
   margin: 0 auto;
-  width: 70%;
+  width: 100%;
 }
 
 h1  {
@@ -67,30 +67,45 @@ h4 a:hover {
   text-decoration: underline;
 }
 
-/* Background Header */
+/* Header */
 header  {
-  background-color: #033048;
   padding: 1%;
   margin-bottom: 75px;
-  /* helps centre content */
-  position: relative;
+  margin: 0 auto;
+  width: 70%;
+  text-align: center;
+}
+
+#blue-colour-block  {
+  background-color: #033048;
   width: 100%;
-  /* margin: 0 auto; */
+}
+
+.logo, nav  {
+  display: inline-block;
+  vertical-align: center;
+}
+
+.logo {
+  margin: 0 250px 0 0;
 }
 
 /* Nav */
-nav {
-  margin-left: 40%;
-  position: absolute;
-  top: 35px;
-}
-
 nav li  {
   display: inline-block;
   margin: 0px 10px 0px 5px;
 }
 
 /* Main & Aside */
+#middle {
+  margin: 0 auto;
+  width: 70%;
+}
+
+#main-aside {
+  margin: 100px 0 0 0;
+}
+
 main, aside {
   display: inline-block;
   vertical-align: top;
@@ -135,7 +150,7 @@ aside h2 {
   margin-bottom: 10px;
 }
 
-ul, aside h4  {
+aside ul, aside h4  {
   list-style-type: none;
   padding: 0;
   margin: 0px 0px 50px 0px;
