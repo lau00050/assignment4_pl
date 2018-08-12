@@ -75,6 +75,7 @@ header  {
   /* helps centre content */
   position: relative;
   width: 100%;
+  /* margin: 0 auto; */
 }
 
 /* Nav */
@@ -106,7 +107,12 @@ main p {
   color: #606161;
 }
 
+/* Javascript */
 .hide {
+  display: none;
+}
+
+.readLess {
   display: none;
 }
 
@@ -137,6 +143,11 @@ ul, aside h4  {
 
 aside p {
   margin-bottom: 0;
+}
+
+/* Javascript */
+.learnLess {
+  display: none;
 }
 
 /* Button */
