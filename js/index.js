@@ -1,16 +1,13 @@
+// ************** //
+// preventDefault //
+// ************** //
 $('a').click(function() {
 	event.preventDefault()
 })
 
-// $('.readMore').click(function() {
-// 	$('#readMoreText').slideToggle()
-// })
-//
-// $('.learnmore').click(function() {
-// 	$('#learnMoreText').slideToggle()
-// })
-
-// ReadMore
+// ************* //
+  // readMore //
+// ************* //
 $('.readMore').click(function() {
 	$('#readMoreText').slideDown()
 	$('.readLess').slideDown()
@@ -25,7 +22,9 @@ $('.readLess').click(function() {
 	$('.readMore').css('display', 'block')
 })
 
-// LearnMore
+// ************* //
+  // learnMore //
+// ************* //
 $('.learnMore').click(function() {
 	$('#learnMoreText').slideDown()
 	$('.learnLess').slideDown()
